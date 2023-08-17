@@ -1,6 +1,216 @@
 .App {
   text-align: center;
 }
+.bg-body-tertiary {
+  background-color: transparent !important;
+}
+.navbar-expand-lg .navbar-nav {
+  
+   width: 80%; 
+  background-color:#3682ca;
+  justify-content:space-between
+
+}
+.nav-link {
+  color: #fff !important;
+}
+#triangle-bottomright {
+width: 0;
+height: 0;
+border-bottom: 40px solid #3682ca;
+border-left: 40px solid transparent;
+} 
+.wrapper {
+min-height: 700px;
+background-size: 100%;
+background-image: url("E:\React\ReactNew\project_new\public\Background.jpeg")
+}
+
+.right-aligned-text {
+  text-align: right;
+}
+
+.nav-top .navbar-nav {
+  width: 60%;
+  background-color: rgb(233, 233, 90);
+}
+
+.nav-top .navbar-nav .nav-link {
+  font-size: small;
+  font-weight: bold;
+  color: #000000 !important;
+}
+
+.nav-top  #triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 36px solid rgb(233, 233, 90);
+  border-left: 35px solid transparent;
+}
+.left-margin-element {
+  margin-left:60px;
+  margin-top: -100px;
+}
+
+#triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 36px solid #3682ca;
+  border-left: 30px solid transparent;
+  } 
+  .nav-link.search-btn {
+    background-color: rgb(233, 233, 90);
+}
+
+.navbar-expand-lg{
+  margin-left: 300px;
+  margin-top: -70px;
+}
+
+.navbar-expand-lg .nav-link {
+  font-size: small;
+  font-weight: bold;
+  color: #faf8f8 !important;
+}
+
+.custom-card {
+  max-width: 876px; 
+  max-height: 176px;
+ margin-left: 362px;
+ margin-top: -27px;
+ font-size: small;
+}
+.card-body{
+  margin-top: -10px;;
+  max-height: 100px;
+}
+
+.card-img-top{
+  margin-left:150px;
+}
+
+
+.shape1 {
+  width: 300px;
+  height: 40px;
+  transform: skew(20deg);
+  background-color: rgb(233, 233, 90);
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.shape1-text {
+  transform: skew(-20deg);
+  /* font-style: normal; Added to remove italics */
+  font-weight: bold;
+}
+
+.shape2 {
+  margin-left:80%;
+  margin-top: -40px;
+  width: 300px;
+  height: 40px;
+  transform: skew(-20deg);
+  background-color: rgb(233, 233, 90);
+}
+.card-second{
+  margin-top: 10px;
+  font-weight: bold;
+ 
+}
+
+.card-second .card-header{
+  height: 65px;
+  font-weight: bold;
+  text-align: start;
+}
+
+.cardInCont{
+  font-size:smaller;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  
+}
+
+.btn{
+  background-color: #515254;
+  margin-left: 65px;
+  width: 70%;
+}
+
+.cardin{
+  height: 50%;
+  width: 35%;
+  margin-top: -400px;
+  margin-left: 170px;
+  
+}
+
+.cardout{
+  margin-top: 55px;
+  width:735px;
+  height:35px ;
+  background-color: rgb(107, 136, 76) !important;
+  font-size:smaller;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-variant: normal;
+}
+
+.cardcountdown{
+  margin-top:auto;
+  width:735px;
+  height:35px ;
+  background-color: transparent !important;
+  font-size:smaller;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:lighter;
+  color: white;
+  word-spacing: 20px;
+}
+
+.card-secoundside{
+  height: 485px;
+  margin-top: 10px;
+}
+.card-secoundside .card-header{
+  height: 65px;
+  font-weight: bold;
+  text-align: start;
+}
+
+.card-img-overlay{
+  margin-top: 200px;
+  margin-left: 60px;
+  color: white;
+  text-align:left;
+
+}
+
+a {
+  color: rgb(189, 216, 30); /* Default color */
+}
+
+
+.thirdpage{
+ margin-top: 70px;
+ width: 100%;
+  height: 200%;
+  margin-right: 100px;
+
+ 
+}
+
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
